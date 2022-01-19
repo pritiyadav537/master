@@ -7,10 +7,10 @@ image:
 
 deployment:
   name: spring-boot-helloworld
-  port: 9091
+  port: 808
 
 service:
   name: spring-boot-helloworld
   type: NodePort
-  port: 9091
+  port: 8080
   nodePort: 31000
