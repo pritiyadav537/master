@@ -1,13 +1,13 @@
 replicaCount: 1
 
 image:
-  repository: "spring-boot-helloworld"
-  tag: "v1"
+  repository: "pritiyadav537/harnesstest"
+  tag: "1.0.0"
   pullPolicy: IfNotPresent
 
 deployment:
   name: spring-boot-helloworld
-  port: 808
+  port: 8080
 
 service:
   name: spring-boot-helloworld
