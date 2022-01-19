@@ -6,11 +6,11 @@ image:
   pullPolicy: IfNotPresent
 
 deployment:
-  name: spring-boot-helloworld
+  name: springboothelloworld
   port: 8080
 
 service:
-  name: spring-boot-helloworld
+  name: springboothelloworld
   type: NodePort
   port: 8080
   nodePort: 31000
